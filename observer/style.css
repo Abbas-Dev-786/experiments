@@ -1,0 +1,101 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* body {
+  scroll-snap-type: proximity;
+} */
+
+nav {
+  position: static;
+  background-color: red;
+  height: 7vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page1 {
+  height: 93vh;
+  background-color: blue;
+}
+
+#page2 {
+  background-color: green;
+}
+
+#page3 {
+  background-color: purple;
+}
+
+#page4 {
+  background-color: orange;
+}
+
+#page5 {
+  background-color: black;
+}
+
+@keyframes test {
+  0% {
+    left: -50%;
+  }
+  10% {
+    left: 10%;
+  }
+  20% {
+    left: 20%;
+  }
+  30% {
+    left: 30%;
+  }
+  40% {
+    left: 40%;
+  }
+  50% {
+    left: 50%;
+  }
+  60% {
+    left: 60%;
+  }
+  70% {
+    left: 70%;
+  }
+  80% {
+    left: 80%;
+  }
+  90% {
+    left: 90%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.animate {
+  position: relative;
+  animation: test ease-in-out 0.5s;
+  transition: 0.5ms ease-in-out;
+}

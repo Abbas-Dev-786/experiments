@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@cometchat/chat-uikit-react": "^4.0.5"
+  }
+}
